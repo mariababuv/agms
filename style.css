@@ -1,0 +1,553 @@
+@import url('https://fonts.googlepis.com/css2?family=poppins:wght@100;300;400;500;600&display=swap');
+:root{
+	--orange:#ff7800;
+	--black:#130f40;
+	--light-color:#666;
+	--box-shadow: 0.5rem 1rem rgba(0,0,0,.1);
+	--border:1rem solid rgba(0,0,0,.1);
+	--outline: :1rem solid rgba(0,0,0,.1);
+
+} 
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border:none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+
+ul li ul{
+ position: absolute;
+}
+
+
+
+	
+
+
+
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: 50px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.paragraph{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.paragraph p{
+	color: #fff;
+	font-size: 20px;
+}
+.span{
+	color: #00ffe7;
+}
+.button{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+body{
+	margin: 0;
+	margin: 0;
+	background: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginbox a:hover
+{
+	color: #ffc107;
+}
+{
+	margin: 0;
+	margin: 0;
+	background: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.artistloginbox{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.rtistloginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.artistloginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.artistloginbox input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+.artistloginbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+.artistloginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+.artistloginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+}
+
+.artistloginbox a:hover
+{
+	color: #ffc107;
+
+}
+{
+	margin: 0;
+	margin: 0;
+	background: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.regform{
+	width: 420px;
+	height: 630px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.regform p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.regform input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.regform input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+.regform input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+.regform input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+.regform a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+}
+
+.regform a:hover
+{
+	color: #ffc107;
+
+}
+{
+	margin: 0;
+	padding: ;
+	font-family: Century Gothic;
+}
+
+{
+margin: 0;
+	margin: 0;
+	background: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.artistregform{
+	width: 420px;
+	height: 630px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.artistavatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.artistregform p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.artistregform input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.artistregform input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+
+}
+.artistregform input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+.artistregform input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+}
+.artistregform a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+}
+
+.artistregform a:hover
+{
+	color: #ffc107;
+
+}
+{
+	margin: 0;
+	padding: ;
+	font-family: Century Gothic;
+}
+.adminlogin{
+	width: 320px;
+	height: 420px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.adminlogin p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.adminlogin input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.adminlogin input[type="text"],input[type="Password"]
+{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.adminlogin input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.adminlogin input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.adminlogin a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.adminlogin a:hover
+{
+	color: #ffc107;
+}
